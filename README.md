@@ -18,6 +18,10 @@ Let's get to know each other!
 - What do you do?
 - Which superhero would you be and why?
 
+## Opening Framing! (5min)
+- What brings you all here today?
+- What would you all like to accomplish?
+
 ## Set Up Chatroom! (2min)
 In order to share links, please visit this site.
 - https://chatstep.com/
@@ -25,7 +29,7 @@ In order to share links, please visit this site.
 - It's secure and private!
 
 ## Website Preparation (10min)
-In order to build and deploy a website or web application, you will need certain requirements.
+In order to build and deploy a website or web application, you will need certain requirements. Today, we will be using Google Chrome as our browser and Sublime Text as our editor. If you are unable to install Sublime Text due to having a work computer or anything else, let us know! You may need to use the default text editor.
 
 ###### Requirements
 - A computer (Acer, Dell, Lenova, MacBook, Surface Pro, etc.).
@@ -38,11 +42,11 @@ In order to build and deploy a website or web application, you will need certain
 - A host (serves the pages for one or more websites).
 - We will be using [BitBalloon](https://www.bitballoon.com/)! It's free!
 
-## Lunch Time! (1hr)
+## Lunch Time! (1:00pm – 2:00pm)
 ![Lunch Time!](https://45.media.tumblr.com/d18c9ff588c08125db8df02e933be10b/tumblr_ms7uc37dlC1sgwuj0o1_500.gif)
 
 ## Resources
-A list of reources that I use constantly.
+A list of reources that I use constantly:
 - Can I Use: http://caniuse.com/
 - CodePen: http://codepen.io/
 - CSS-Tricks: https://css-tricks.com/
