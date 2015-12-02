@@ -51,31 +51,50 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 - Markup language is a set of markup tags.
 - HTML tags describes different document content (important with SEO).
 - HTML documents are described by HTML tags.
-
-```html
-<tagname>content</tagname>
-```
-
 - HTML tags usually come in pairs.
 - The first tag is the start (opening) tag, the second tag is the end (closing) tag.
 - The end (closing) tag is written with a slash before the tag name.
 
 ```html
+<tagname>content</tagname>
+```
+
+- `<!DOCTYPE html>` describes an HTML document.
+- `<html></html>` defines the document type.
+- `<head></head>` is the information about the document.
+- `<body></body>` contains visible content.
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
   </head>
   <body>
   </body>
 </html>
 ```
 
-- `<!DOCTYPE html>` describes an HTML document.
-- `<html></html>` defines the document type.
-- `<head></head>` is the information about the document
-- `<title></title>` is the title of the document.
-- `<body></body>` contains visible content.
+- `<meta></meta>` describes metadata (information).
+- `<meta charset="utf-8">` defines the character set for the document.
+- `<title></title>` is the title of the document (SEO).
+- `<meta name="description" content="...">` is the description of the document (SEO).
+- `<link rel="shortcut icon" href="" type="image/x-icon">` is the favorite icon.
+- `<link rel="stylesheet" href="">` links the CSS styles to the HTML document.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+  </body>
+</html>
+```
 
 ## Lunch Time! (1:00pm – 2:00pm)
 ![Lunch Time!](https://45.media.tumblr.com/d18c9ff588c08125db8df02e933be10b/tumblr_ms7uc37dlC1sgwuj0o1_500.gif)
