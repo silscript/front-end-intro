@@ -47,6 +47,8 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 
 - Display elements in the developer tools.
 - Let's create a rudimentary website! Add your own content and have fun!
+- Create a new directory to contain your files and assets.
+- Create the index.html file within that directory.
 - As we go, add different elements we will be using throughout the class.
 - Markup language is a set of markup tags.
 - HTML tags describes different document content (important with SEO).
@@ -76,28 +78,37 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 
 - `<meta></meta>` describes metadata (information).
 - `<meta charset="utf-8">` defines the character set for the document.
-- `<title></title>` is the title of the document (SEO).
-- `<meta name="description" content="...">` is the description of the document (SEO).
+- `<title></title>` is the title of the document (important with SEO).
+- `<meta name="description" content="...">` is the description of the document (important with SEO).
 - `<link rel="shortcut icon" href="" type="image/x-icon">` is the favorite icon.
 - `<link rel="stylesheet" href="">` links the CSS styles to the HTML document.
 
 ```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="">
-  </head>
-  <body>
-  </body>
-</html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="stylesheet" href="">
+</head>
 ```
 
+- `<header></header>`
+- `<h1></p>`
+- `<p></p>`
+
+```html
+<body>
+  <header>
+    <h1>Hello World!</h1>
+    <p>This is an awesome new website using HTML and CSS!</p>
+  </header>
+</body>
+```
+Open in a browser. Congratulations! We've developed our first site!
+
 ## Lunch Time! (1:00pm – 2:00pm)
-![Lunch Time!](https://45.media.tumblr.com/d18c9ff588c08125db8df02e933be10b/tumblr_ms7uc37dlC1sgwuj0o1_500.gif)
+![Lunch Time!](https://raw.githubusercontent.com/silscript/front-end-intro/master/assets/pug_eating.gif)
 
 ## Resources
 A list of reources that I use constantly:
