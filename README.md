@@ -42,6 +42,41 @@ In order to build and deploy a website or web application, you will need certain
 - A host (serves the pages for one or more websites).
 - We will be using [BitBalloon](https://www.bitballoon.com/)! It's free!
 
+## Hyper Text Markup Language (1hr)
+HTML is a markup language for describing webpages. For example, let's visit the Google website! We will be using the developer tools to inspect the webpage. At the end of the day, a wesbite is just content!
+
+- Display elements in the developer tools.
+- Let's create a rudimentary website! Add your own content and have fun!
+- As we go, add different elements we will be using throughout the class.
+- Markup language is a set of markup tags.
+- HTML tags describes different document content (important with SEO).
+- HTML documents are described by HTML tags.
+
+```html
+<tagname>content</tagname>
+```
+
+- HTML tags usually come in pairs.
+- The first tag is the start (opening) tag, the second tag is the end (closing) tag.
+- The end (closing) tag is written with a slash before the tag name.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+  </body>
+</html>
+```
+
+- `<!DOCTYPE html>` describes an HTML document.
+- `<html></html>` defines the document type.
+- `<head></head>` is the information about the document
+- `<title></title>` is the title of the document.
+- `<body></body>` contains visible content.
+
 ## Lunch Time! (1:00pm – 2:00pm)
 ![Lunch Time!](https://45.media.tumblr.com/d18c9ff588c08125db8df02e933be10b/tumblr_ms7uc37dlC1sgwuj0o1_500.gif)
 
