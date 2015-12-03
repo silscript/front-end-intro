@@ -269,6 +269,12 @@ div {
 - The element selector selects elements based on the element name.
 - For example, `<html>, <body>, <header>, <main>, <div>, <h1>, <p>,` etc.
 
+```html
+<div>
+  <!-- Content -->
+</div>
+```
+
 ```css
 div {
   background-color: #000000;
@@ -345,7 +351,7 @@ header, footer, div {
 }
 ```
 
-## CSS Specificity
+###### CSS Specificity
 - Specificity determines which CSS rule is applied by the browsers.
 - If two selectors apply to the same element, the one with higher specificity wins.
 - The last rule defined overrides any previous, conflicting rules.
@@ -356,10 +362,31 @@ header, footer, div {
   - Element selectors.
 - It's important to structure your CSS file to avoid unexpected overrides.
 
-## Box Model
+###### Box Model
+- The box model describes how all block elements behave.
+- It wraps around every HTML element. It consists of:
+  - Margins - Clears an area outside the border. The margin is transparent.
+  - Borders - The border goes around the padding and content
+  - Padding - Clears an area around the content. The padding is transparent.
+  - Content - The content (images and text) of the box.
+- In order to set the width and height of an element correctly in all browsers, you need to calculate the size of the content, padding, borders and margins.
+- However, we can avoid calculating by altering the default CSS box model.
+- `box-sizing: border-box;` includes the padding and border to the width and height, but not the margin.
 
+```css
+html {
+  box-sizing: border-box;
+}
 
-## Hex Values
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+```
+
+###### Hex Values
+
+###### Font Values
+- If a font name contains white-space, it must be quoted.
 
 
 ## Credits
