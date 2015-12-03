@@ -48,7 +48,7 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 - Display elements in the developer tools.
 - Let's create a rudimentary website! Add your own content and have fun!
 - Create a new directory to contain your files and assets.
-- Create the index.html file within that directory.
+- Create an index.html file within that directory.
 - As we go, add different elements we will be using throughout the class.
 - Markup language is a set of markup tags.
 - HTML tags describes different document content (important with SEO).
@@ -82,10 +82,10 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 - `<meta name="description" content="...">` is the description of the document (important with SEO).
 - `<link rel="shortcut icon" href="" type="image/x-icon">` is the favorite icon.
 - `<link rel="stylesheet" href="">` links the CSS styles to the HTML document.
-- Attributes provided additional information about an element.
+- Attributes provide additional information about an element.
   - Attributes are always specified in the start tag.
   - Attributes come in name/value pairs like: name="value".
-  - Examples: alt, href, id, src, style, etc.
+  - Examples: alt, href, id, rel, src, style, etc.
 
 ```html
 <!DOCTYPE html>
@@ -142,8 +142,8 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
 - `<p></p>` defines a paragraph.
 - `<ul></ul>` defines an unordered bulleted list.
 - `<li></li>` defines a list item.
-- `<a href="#"></a>` defines a hyperlink, which is used to link from one page to another.
-  -`href=""`specifies the url of the page the link goes to.
+- `<a href=""></a>` defines a hyperlink, which is used to link from one page to another.
+  - `href=""`specifies the url of the page the link goes to.
 - `<img src="" alt="">`defines an image in an HTML page.
   - `src=""`specifies the url of an image.
   - `alt=""`specifies an alternate text for an image.
@@ -157,6 +157,7 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
 
       <nav>
         <ul>
+          <!-- Add links. -->
           <li><a href=""></a></li>
           <li><a href=""></a></li>
           <li><a href=""></a></li>
@@ -202,6 +203,7 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
 
       <nav>
         <ul>
+          <!-- Add links. -->
           <li><a href=""></a></li>
           <li><a href=""></a></li>
           <li><a href=""></a></li>
@@ -243,9 +245,9 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
 CSS stands for cascading style sheets. CSS is used to define style for your webpages, such as the design and layout for different devices and screen sizes. With an external stylesheet file, it's easy changing the styles for an entire website.
 
 - Let's style our website! Add your own styles and have fun!
-- Create the styles.css file within the same directory as your index.html file.
+- Create a styles.css file within the same directory as your index.html file.
 - As we go, add different css rules we will be using throughout the class.
-- CSS rules consists of a selector (a tagname, class, or id) and a declartion block (a property and a value).
+- CSS rules consists of a selector (attribute, class, id, tagname, etc.) and a declartion block (a property and a value).
 - Declaration blocks end with a semicolon and are surrouned by curly braces.
 - `selector` is the element you want to style.
 - `property` is the name of the property.
@@ -255,23 +257,81 @@ CSS stands for cascading style sheets. CSS is used to define style for your webp
 selector {
   property: value;
 }
+```
 
-body {
-  background-color: #FFF;
+```css
+div {
+  background-color: #000000;
 }
 ```
 
 ###### Element Selectors:
+- The element selector selects elements based on the element name.
+- For example, `<html>, <body>, <header>, <main>, <div>, <h1>, <p>,` etc.
 
+```css
+div {
+  background-color: #000000;
+}
+```
 
 ###### Class Selectors:
+- The class selector selects elements with a specific class attribute.
+- To select elements with a specific class, add a `.` before the name of the class.
+- Never start a class name with a number!
 
+```css
+.site-container {
+  background-color: #000000;
+}
+```
+
+- You can also specify that only specific HTML elements should be affected by a class.
+- All `<div>` elemets with a `class="site-container"` will be changed.
+
+```css
+div.site-container {
+  background-color: #000000;
+}
+```
 
 ###### ID Selectors:
+- The id selector uses the id attribute of an HTML element to select a specific element.
+- An id should be unique within a page, so the id selector is used if you want to select a single, unique element.
+- To select elements with a specific id, add a `#` before the name of the id.
 
+```css
+#site-container {
+  background-color: #000000;
+}
+```
 
 ###### Grouping Selectors:
+- If you have elements with the same style definitions, group them!
+- You can group the selectors, to minimize the code.
 
+```css
+header {
+  background-color: #000000;
+}
+
+footer {
+  background-color: #000000;
+}
+
+div {
+  background-color: #000000;
+}
+```
+
+- Minimizing your code is important. Faster upload time, easier to read, consistent edits.
+- To group selectors, separate each selector with a comma.
+
+```css
+header, footer, div {
+  background-color: #000000;
+}
+```
 
 ## Box Model
 
@@ -283,6 +343,7 @@ body {
 - Animated pug gifs from Space Brothers.
 - Font-Awesome Iconography by Dave Gandy.
 - Name of Font by Name of Designer & Google Fonts.
+- Various content by W3Schools.
 
 ## Resources
 A list of resources that I use constantly:
