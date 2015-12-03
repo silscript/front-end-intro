@@ -1,0 +1,13 @@
+/* Base Styles */
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
