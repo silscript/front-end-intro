@@ -7,8 +7,8 @@ CSS stands for cascading style sheets. CSS is used to define style for your webp
 - Let's style our website! Add your own styles and have fun!
 - Create a styles.css file within the same directory as your index.html file.
 - As we go, add different css rules we will be using throughout the class.
-- CSS rules consists of a selector (attribute, class, id, tagname, etc.) and a declartion block (a property and a value).
-- Declaration blocks end with a semicolon and are surrouned by curly braces.
+- CSS rules consists of a selector (attribute, class, id, tagname, etc.) and a declaration block (a property and a value).
+- Declaration blocks end with a semicolon and are surrounded by curly braces.
 - `selector` is the element you want to style.
 - `property` is the name of the property.
 - `value` is the value of the property.
@@ -144,7 +144,7 @@ html {
 ```
 
 ###### Colors:
-- Colors are displayed by combbining red, green, and blue light.
+- Colors are displayed by combining red, green, and blue light.
 - Colors are defined using a hexadecimal (HEX) notation (#000000) for the combination of RGB values.
 - The lowest hexadecimal value is 0 (HEX 00). This darkens the color value.
 - The highest value is 255 (HEX FF). This brightens the color value.
@@ -186,11 +186,18 @@ h1 {
 }
 ```
 
+- Pixels are fixed-size units that are used in screen media (i.e. to be read on the computer screen).
+- One pixel is equal to one dot on the computer screen (the smallest division of your screen’s resolution).
+
 ```css
 h1 {
   font-size: 12px;
 }
 ```
+
+- Points are traditionally used in print media (anything that is to be printed on paper, etc.).
+- One point is equal to 1/72 of an inch.
+- Points are much like pixels, in that they are fixed-size units and cannot scale in size.
 
 ```css
 h1 {
@@ -198,12 +205,17 @@ h1 {
 }
 ```
 
+- The percent unit is much like the “em” unit, save for a few fundamental differences.
+- The current font-size is equal to 100% (i.e. 12pt = 100%).
+- While using the percent unit, your text remains fully scalable for mobile devices and for accessibility.
+
 ```css
 h1 {
   font-size: 100%;
 }
 ```
 
+Use ems! Please!
 
 ###### :
 - If a font name contains white-space, it must be quoted.
