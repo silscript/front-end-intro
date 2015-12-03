@@ -1,5 +1,5 @@
 # Front-End Development
-The practice of producing HTML, CSS, and JavaScript for a webiste or web application for a user to interact with it directly.
+The practice of producing HTML, CSS, and JavaScript for a website or web application for a user to interact with it directly.
 
 ## Learning Objectives (5min)
 - Differentiate between HTML and CSS.
@@ -23,7 +23,7 @@ Let's get to know each other!
 - What would you all like to accomplish?
 
 ## Set Up Chatroom! (2min)
-In order to share links, please visit this site.
+In order to share links, please use this site to chat.
 - https://chatstep.com/
 - Add your name and the password.
 - It's secure and private!
@@ -42,8 +42,8 @@ In order to build and deploy a website or web application, you will need certain
 - A host (serves the pages for one or more websites).
 - We will be using [BitBalloon](https://www.bitballoon.com/)! It's free!
 
-## Hyper Text Markup Language (1hr)
-HTML is a markup language for describing webpages. For example, let's visit the Google website! We will be using the developer tools to inspect the webpage. At the end of the day, a wesbite is just content!
+## Hyper Text Markup Language
+HTML is a markup language for describing webpages. For example, let's visit the Google website! We will be using the developer tools to inspect the webpage. At the end of the day, a website is just content!
 
 - Display elements in the developer tools.
 - Let's create a rudimentary website! Add your own content and have fun!
@@ -82,36 +82,112 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 - `<meta name="description" content="...">` is the description of the document (important with SEO).
 - `<link rel="shortcut icon" href="" type="image/x-icon">` is the favorite icon.
 - `<link rel="stylesheet" href="">` links the CSS styles to the HTML document.
+- Attributes provided additional information about an element.
+  - Attributes are always specified in the start tag.
+  - Attributes come in name/value pairs like: name="value".
+  - Examples: alt, href, id, src, style, etc.
 
 ```html
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <link rel="shortcut icon" href="" type="image/x-icon">
-  <link rel="stylesheet" href="">
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    Hello World!
+  </body>
+</html>
 ```
 
-- `<header></header>`
-- `<h1></p>`
-- `<p></p>`
+Open in a browser. Congratulations! We've developed our first site!
+
+##  Semantic Elements
+HTML5 offers new semantic elements to define parts of a document. A semantic element describes its meaning to the browser and defines its content. All semantic elements are supported in all modern browsers. In order to add content to a document, elements have to nest. That is, every element has to be completely inside another element.
+
+- `<header></header>` specifies a header for a document or for introductory content.
+- `<nav></nav>` defines a set of navigation links.
+- `<main></main>` specifies the main content of a document.
+- `<section></section>` defines a thematic grouping of content.
+- `<footer></footer>` specifies a footer for a document or section.
+- You can have multiple headers, navs, sections, and footers, but can only have one main element.
+- There are more semantic elements, but these are the important ones.
 
 ```html
 <body>
   <header>
-    <h1>Hello World!</h1>
-    <p>This is an awesome new website using HTML and CSS!</p>
+    <nav>
+    </nav>
   </header>
+
+  <main>
+    <section>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
 </body>
 ```
-Open in a browser. Congratulations! We've developed our first site!
+
+- `<h1> - <h6>` defines HTML headings.
+  - Use headings for heading only, do not use for style purposes.
+  - Search engines use your heading to index the structure and content of your web pages.
+  - `<h1></h1>` defines the most important heading.
+  - `<h6></h6>` defines the least important heading.
+- `<p></p>` defines a paragraph.
+- `<ul></ul>` defines an unordered bulleted list.
+- `<li></li>` defines a list item.
+- `<a href="#"></a>` defines a hyperlink, which is used to link from one page to another.
+  -`href=""`specifies the URL of the page the link goes to.
+- `<img src="" alt="">`defines an image in an HTML page.
+  -`src=""`specifies the URL of an image.
+  -`alt=""`specifies an alternate text for an image.
+
+```html
+<body>
+    <header>
+      <h1></h1>
+      <h2></h2>
+      <p></p>
+
+      <nav>
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </section>
+
+      <section>
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </section>
+    </main>
+
+    <footer>
+      <p></p>
+    </footer>
+  </body>
+```
 
 ## Lunch Time! (1:00pm – 2:00pm)
 ![Lunch Time!](https://raw.githubusercontent.com/silscript/front-end-intro/master/assets/pug_eating.gif)
 
 ## Resources
-A list of reources that I use constantly:
+A list of resources that I use constantly:
 - Can I Use: http://caniuse.com/
 - CodePen: http://codepen.io/
 - CSS-Tricks: https://css-tricks.com/
