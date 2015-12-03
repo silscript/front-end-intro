@@ -1,5 +1,5 @@
-# Front-End Development
-The practice of producing HTML, CSS, and JavaScript for a website or web application for a user to interact with it directly.
+## Programming for Non-Programming
+We will be learning front-end development today. Front-end is the practice of producing HTML, CSS, and JavaScript for a website or web application for a user to interact with it directly.
 
 ## Learning Objectives (5min)
 - Differentiate between HTML and CSS.
@@ -8,6 +8,7 @@ The practice of producing HTML, CSS, and JavaScript for a website or web applica
 - Inspect an element using development tools.
 - Know which content goes in the head.
 - Know which content goes in the body.
+- Learn the tecnical vocabulary.
 - Link a stylesheet to HTML.
 - Utilize common css properties.
 
@@ -28,6 +29,35 @@ In order to share links, please use this site to chat.
 - Add your name and the password.
 - It's secure and private!
 
+## Web Development
+Web development is the coding or programming that enables website functionality, per the owner's requirements. It mainly deals with the non-design aspect of building websites, which includes coding and writing markup. Web development ranges from creating plain text pages to complex web-based applications, social network applications and electronic business applications.
+
+- What can I build?
+  - Websites
+  - Web Applications
+  - Native Applications (Mobile)
+
+- What is the differnt between front-end vs back-end?
+  - Front-end (HTML, CSS, JS) markup and programming languages are for used to structure, style and make the user interface (UI).
+  - Back-end (Ruby, Python, etc.) programming langauges are used to process data on the server side and return information requested by the user interface.
+
+- What do programs actually do?
+  - Keep track of values (variables).
+  - Make decisions (conditionals).
+  - Repeat things (loops).
+  - Log things (log files).
+  - Store things (databases).
+
+- Stages of Web Development:
+  - Agile vs. Waterfall
+  - Waterfall is a sequential design process. goes through each of the eight stages, conception, initiation, analysis, design, construction, testing, implementation, and maintenance. Once completed, the developers move on to the next step.
+  - Agile is development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. It does not deliver the product all at once near the end.
+
+- Stages of Web Development & Design:
+  - User experience includes the practical, experiential, affective, meaningful and valuable aspects of human–computer interaction and product ownership. Additionally, it includes a person’s perceptions of system aspects such as utility, ease of use and efficiency.
+  - Infomation architecture includes reasearching the audience and the business, analyzing data, and developing site structures.
+  - Visual design focuses on the aesthetics of a site and its related materials by strategically implementing images, colors, fonts, and other elements.
+
 ## Website Preparation (10min)
 In order to build and deploy a website or web application, you will need certain requirements. Today, we will be using Google Chrome as our browser and Sublime Text as our editor. If you are unable to install Sublime Text due to having a work computer or anything else, let us know! You may need to use the default text editor.
 
@@ -41,6 +71,13 @@ In order to build and deploy a website or web application, you will need certain
 - A domain name (assigning addresses to internet web servers).
 - A host (serves the pages for one or more websites).
 - We will be using [BitBalloon](https://www.bitballoon.com/)! It's free!
+
+## Deploy Your Website!
+In order to your website, please use this site.
+- https://bitballoon.com/
+- Sign up for a free account.
+- Drag and drop your folder and your site is hosted!
+- Show it off!
 
 ## Contact Information
 If you have any questions, don't hesitate to contact me! :)
