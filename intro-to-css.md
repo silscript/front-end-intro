@@ -111,7 +111,7 @@ header, footer, div {
 }
 ```
 
-###### Specificity
+###### Specificity:
 - Specificity determines which CSS rule is applied by the browsers.
 - If two selectors apply to the same element, the one with higher specificity wins.
 - The last rule defined overrides any previous, conflicting rules.
@@ -221,7 +221,7 @@ Use ems! Please!
 - If a font name contains white-space, it must be quoted.
 
 ## That's All! (4:10pm)
-![Mind Blown!]()
+![Mind Blown!](https://raw.githubusercontent.com/silscript/front-end-intro/master/assets/pug_amazed.gif)
 
 ## Credits
 - Animated pug gifs from Space Brothers.
