@@ -103,7 +103,7 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 </html>
 ```
 
-Open in the Chrome browser. Congratulations, We've developed our first site!
+Open in the Chrome browser. Congratulations, you developed your first site!
 
 ##  HTML Elements
 HTML5 offers new semantic elements to define parts of a document. A semantic element describes its meaning to the browser and defines its content. All semantic elements are supported in all modern browsers. In order to add content to a document, elements have to nest. That is, every element has to be completely inside another element.
@@ -280,6 +280,12 @@ div {
 - To select elements with a specific class, add a `.` before the name of the class.
 - Never start a class name with a number!
 
+```html
+<div class="site-container">
+  <!-- Content -->
+</div>
+```
+
 ```css
 .site-container {
   background-color: #000000;
@@ -299,6 +305,12 @@ div.site-container {
 - The id selector uses the id attribute of an HTML element to select a specific element.
 - An id should be unique within a page, so the id selector is used if you want to select a single, unique element.
 - To select elements with a specific id, add a `#` before the name of the id.
+
+```html
+<div id="site-container">
+  <!-- Content -->
+</div>
+```
 
 ```css
 #site-container {
@@ -332,6 +344,17 @@ header, footer, div {
   background-color: #000000;
 }
 ```
+
+## CSS Specificity
+- Specificity determines which CSS rule is applied by the browsers.
+- If two selectors apply to the same element, the one with higher specificity wins.
+- The last rule defined overrides any previous, conflicting rules.
+- There are four distinct categories which define the specificity level of a given selector:
+  - Inline styles.
+  - ID selectors.
+  - Class and attribute selectors.
+  - Element selectors.
+- It's important to structure your CSS file to avoid unexpected overrides.
 
 ## Box Model
 
