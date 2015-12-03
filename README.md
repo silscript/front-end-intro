@@ -31,12 +31,12 @@ In order to share links, please use this site to chat.
 ## Website Preparation (10min)
 In order to build and deploy a website or web application, you will need certain requirements. Today, we will be using Google Chrome as our browser and Sublime Text as our editor. If you are unable to install Sublime Text due to having a work computer or anything else, let us know! You may need to use the default text editor.
 
-###### Requirements
+###### Requirements:
 - A computer (Acer, Dell, Lenova, MacBook, Surface Pro, etc.).
 - A web browser ([Chrome](https://www.google.com/chrome/browser/desktop/), [Edge](https://www.microsoft.com/en-us/download/details.aspx?id=48126), [FireFox](https://www.mozilla.org/en-US/firefox/new/), [Internet Explorer](http://windows.microsoft.com/en-us/internet-explorer/download-ie), [Safari](https://support.apple.com/downloads/safari), and [Opera](http://www.opera.com/)).
 - A text editor ([Atom](https://atom.io/), Notepad, [Sublime Text](http://www.sublimetext.com/3), and TextEdit).
 
-###### Deployment
+###### Deployment:
 - A FTP client ([Cyberduck](https://cyberduck.io/), [FileZilla](https://filezilla-project.org/), [SmartFTP](https://www.smartftp.com/), and [Transmit](https://panic.com/transmit/)).
 - A domain name (assigning addresses to internet web servers).
 - A host (serves the pages for one or more websites).
@@ -108,7 +108,7 @@ Open in the Chrome browser. Congratulations, We've developed our first site!
 ##  HTML Elements
 HTML5 offers new semantic elements to define parts of a document. A semantic element describes its meaning to the browser and defines its content. All semantic elements are supported in all modern browsers. In order to add content to a document, elements have to nest. That is, every element has to be completely inside another element.
 
-###### Semantic Elements
+###### Semantic Elements:
 - `<header></header>` specifies a header for a document or for introductory content.
 - `<nav></nav>` defines a set of navigation links.
 - `<main></main>` specifies the main content of a document.
@@ -186,12 +186,12 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
   </body>
 ```
 
-###### Non-Semantic Elements
-- Both the <div> and <span> tell nothing about its content.
+###### Non-Semantic Elements:
+- Both the `<div>` and `<span>` tell nothing about its content.
 - `<div></div>` defines a division or a section in a document.
   - Used to group block-elements to format with CSS.
 - `<span></span>` is used to group inline-elements in a document.
-  - Tag provides no visual changy by itself.
+  - Tag provides no visual change by itself.
 
 ```html
 <body>
@@ -240,6 +240,49 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
 ![Lunch Time!](https://raw.githubusercontent.com/silscript/front-end-intro/master/assets/pug_eating.gif)
 
 ## Cascading Style Sheets
+CSS stands for cascading style sheets. CSS is used to define style for your webpages, such as the design and layout for different devices and screen sizes. With an external stylesheet file, it's easy changing the styles for an entire website.
+
+- Let's style our website! Add your own styles and have fun!
+- Create the styles.css file within the same directory as your index.html file.
+- As we go, add different css rules we will be using throughout the class.
+- CSS rules consists of a selector (a tagname, class, or id) and a declartion block (a property and a value).
+- Declaration blocks end with a semicolon and are surrouned by curly braces.
+- `selector` is the element you want to style.
+- `property` is the name of the property.
+- `value` is the value of the property.
+
+```css
+selector {
+  property: value;
+}
+
+body {
+  background-color: #FFF;
+}
+```
+
+###### Element Selectors:
+
+
+###### Class Selectors:
+
+
+###### ID Selectors:
+
+
+###### Grouping Selectors:
+
+
+## Box Model
+
+
+## Hex Values
+
+
+## Credits
+- Animated pug gifs from Space Brothers.
+- Font-Awesome Iconography by Dave Gandy.
+- Name of Font by Name of Designer & Google Fonts.
 
 ## Resources
 A list of resources that I use constantly:
@@ -262,8 +305,3 @@ If you have any questions, don't hesitate to contact me! :)
 - Dribbble: https://dribbble.com/silscript
 - GitHub: https://github.com/silscript
 - Twitter: http://twitter.com/silscript
-
-## Credit Information
-- Animated pug gifs from Space Brothers.
-- Font-Awesome Iconography by Dave Gandy.
-- Name of Font by Name of Designer & Google Fonts.
