@@ -103,11 +103,12 @@ HTML is a markup language for describing webpages. For example, let's visit the 
 </html>
 ```
 
-Open in a browser. Congratulations! We've developed our first site!
+Open in the Chrome browser. Congratulations, We've developed our first site!
 
-##  Semantic Elements
+##  HTML Elements
 HTML5 offers new semantic elements to define parts of a document. A semantic element describes its meaning to the browser and defines its content. All semantic elements are supported in all modern browsers. In order to add content to a document, elements have to nest. That is, every element has to be completely inside another element.
 
+###### Semantic Elements
 - `<header></header>` specifies a header for a document or for introductory content.
 - `<nav></nav>` defines a set of navigation links.
 - `<main></main>` specifies the main content of a document.
@@ -142,10 +143,10 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
 - `<ul></ul>` defines an unordered bulleted list.
 - `<li></li>` defines a list item.
 - `<a href="#"></a>` defines a hyperlink, which is used to link from one page to another.
-  -`href=""`specifies the URL of the page the link goes to.
+  -`href=""`specifies the url of the page the link goes to.
 - `<img src="" alt="">`defines an image in an HTML page.
-  -`src=""`specifies the URL of an image.
-  -`alt=""`specifies an alternate text for an image.
+  - `src=""`specifies the url of an image.
+  - `alt=""`specifies an alternate text for an image.
 
 ```html
 <body>
@@ -156,22 +157,24 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
 
       <nav>
         <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section>
-        <img src="" alt="">
+        <!-- Add images with a url. -->
+        <h1></h1>
         <img src="" alt="">
         <img src="" alt="">
       </section>
 
       <section>
-        <img src="" alt="">
+        <!-- Add images with a path. -->
+        <h1></h1>
         <img src="" alt="">
         <img src="" alt="">
       </section>
@@ -183,8 +186,60 @@ HTML5 offers new semantic elements to define parts of a document. A semantic ele
   </body>
 ```
 
+###### Non-Semantic Elements
+- Both the <div> and <span> tell nothing about its content.
+- `<div></div>` defines a division or a section in a document.
+  - Used to group block-elements to format with CSS.
+- `<span></span>` is used to group inline-elements in a document.
+  - Tag provides no visual changy by itself.
+
+```html
+<body>
+    <header>
+      <h1></h1>
+      <h2></h2>
+      <p><span></span></p>
+
+      <nav>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <!-- Add images with a url. -->
+        <h1></h1>
+        <img src="" alt="">
+        <img src="" alt="">
+      </section>
+
+      <section>
+        <!-- Add images with a path. -->
+        <h1></h1>
+        <img src="" alt="">
+        <img src="" alt="">
+      </section>
+
+      <div>
+        <!-- Add an image with a path or url. -->
+        <img src="" alt="">
+      </div>
+    </main>
+
+    <footer>
+      <p></p>
+    </footer>
+  </body>
+```
+
 ## Lunch Time! (1:00pm – 2:00pm)
 ![Lunch Time!](https://raw.githubusercontent.com/silscript/front-end-intro/master/assets/pug_eating.gif)
+
+## Cascading Style Sheets
 
 ## Resources
 A list of resources that I use constantly:
@@ -207,3 +262,8 @@ If you have any questions, don't hesitate to contact me! :)
 - Dribbble: https://dribbble.com/silscript
 - GitHub: https://github.com/silscript
 - Twitter: http://twitter.com/silscript
+
+## Credit Information
+- Animated pug gifs from Space Brothers.
+- Font-Awesome Iconography by Dave Gandy.
+- Name of Font by Name of Designer & Google Fonts.
