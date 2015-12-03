@@ -8,7 +8,7 @@ We will be learning front-end development today. Front-end is the practice of pr
 - Inspect an element using development tools.
 - Know which content goes in the head.
 - Know which content goes in the body.
-- Learn the tecnical vocabulary.
+- Learn the technical vocabulary.
 - Link a stylesheet to HTML.
 - Utilize common css properties.
 
@@ -29,7 +29,7 @@ In order to share links, please use this site to chat.
 - Add your name and the password.
 - It's secure and private!
 
-## Web Development
+## Web Development (30min)
 Web development is the coding or programming that enables website functionality, per the owner's requirements. It mainly deals with the non-design aspect of building websites, which includes coding and writing markup. Web development ranges from creating plain text pages to complex web-based applications, social network applications and electronic business applications.
 
 - What can I build?
@@ -37,7 +37,7 @@ Web development is the coding or programming that enables website functionality,
   - Web Applications
   - Native Applications (Mobile)
 
-- What is the differnt between front-end vs back-end?
+- What are the differences between front-end vs back-end?
   - Front-end (HTML, CSS, JS) markup and programming languages are used to structure, style and make the user interface.
   - Back-end (Ruby, Python, etc.) programming langauges are used to process data on the server side and return information requested by the user interface.
 
@@ -55,11 +55,11 @@ Web development is the coding or programming that enables website functionality,
 
 - What are the stages of the design?
   - User experience includes the practical, experiential, affective, meaningful and valuable aspects of human–computer interaction and product ownership. Additionally, it includes a person’s perceptions of system aspects such as utility, ease of use and efficiency.
-  - Infomation architecture includes reasearching the audience and business, analyzing data, and developing site structures.
+  - Information architecture includes researching the audience and business, analyzing data, and developing site structures.
   - Visual design focuses on the aesthetics of a site and its related materials by strategically implementing images, colors, fonts, and other elements.
 
 - What is version control?
-  - Keeps trackof code and versions.
+  - Keeps track of code and versions.
   - Keeps track of contributions.
   - Collaborate with others on.
   - Open source, denoting software for which the original source code is made freely available and may be redistributed and modified.

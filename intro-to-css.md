@@ -103,7 +103,7 @@ div {
 ```
 
 - Minimizing your code is important. Faster upload time, easier to read, consistent edits.
-- To group selectors, separate each selector with a comma.
+- To group selectors, separate each selector with a comma. So cool!
 
 ```css
 header, footer, div {
@@ -111,7 +111,7 @@ header, footer, div {
 }
 ```
 
-###### CSS Specificity
+###### Specificity
 - Specificity determines which CSS rule is applied by the browsers.
 - If two selectors apply to the same element, the one with higher specificity wins.
 - The last rule defined overrides any previous, conflicting rules.
@@ -143,20 +143,80 @@ html {
 }
 ```
 
-###### Hex Values:
+###### Colors:
+- Colors are displayed by combbining red, green, and blue light.
+- Colors are defined using a hexadecimal (HEX) notation (#000000) for the combination of RGB values.
+- The lowest hexadecimal value is 0 (HEX 00). This darkens the color value.
+- The highest value is 255 (HEX FF). This brightens the color value.
 
-###### Font Values:
+```css
+div {
+  background-color: #000000 /* Black */
+}
+
+div {
+  background-color: #FFFFFF /* White */
+}
+
+div {
+  background-color: #FF0000 /* Red */
+}
+
+div {
+  background-color: #00FF00 /* Green */
+}
+
+div {
+  background-color: #0000FF /* Blue */
+}
+```
+
+###### Typography Units:
+- The main units in CSS are `em`, `px`, `pt`, `%`.
+- The `em` is a scalable unit that is used in a document.
+- It is equal to the current font-size, for instance, if the font-size of the document is 12pt, 1em is equal to 12pt.
+
+```css
+body {
+  font-size: 62.5%; /* 1em = 10px */
+}
+
+h1 {
+  font-size: 1em;
+}
+```
+
+```css
+h1 {
+  font-size: 12px;
+}
+```
+
+```css
+h1 {
+  font-size: 12pt;
+}
+```
+
+```css
+h1 {
+  font-size: 100%;
+}
+```
+
+
+###### :
 - If a font name contains white-space, it must be quoted.
 
+## That's All! (4:10pm)
+![Mind Blown!]()
 
 ## Credits
 - Animated pug gifs from Space Brothers.
-- Font-Awesome Iconography by Dave Gandy.
-- Name of Font by Name of Designer & Google Fonts.
 - Various content by W3Schools.
 
 ## Resources
-A list of resources that I use constantly:
+A list of CSS resources that I frequently use:
 - Can I Use: http://caniuse.com/
 - CodePen: http://codepen.io/
 - CSS-Tricks: https://css-tricks.com/
@@ -164,9 +224,7 @@ A list of resources that I use constantly:
 - CSS Colours: http://colours.neilorangepeel.com/
 - CSS Specificity: http://specificity.keegan.st/
 - Font Awesome Icons: https://fortawesome.github.io/Font-Awesome/icons/
-- GitHub: https://github.com/
 - Google Fonts: https://www.google.com/fonts
-- HTML5 Doctor: http://html5doctor.com/
 - Mozilla Docs: https://developer.mozilla.org/en-US/
 - Stack Overflow: http://stackoverflow.com/
 
