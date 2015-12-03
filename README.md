@@ -38,7 +38,7 @@ Web development is the coding or programming that enables website functionality,
   - Native Applications (Mobile)
 
 - What is the differnt between front-end vs back-end?
-  - Front-end (HTML, CSS, JS) markup and programming languages are for used to structure, style and make the user interface (UI).
+  - Front-end (HTML, CSS, JS) markup and programming languages are used to structure, style and make the user interface.
   - Back-end (Ruby, Python, etc.) programming langauges are used to process data on the server side and return information requested by the user interface.
 
 - What do programs actually do?
@@ -48,15 +48,21 @@ Web development is the coding or programming that enables website functionality,
   - Log things (log files).
   - Store things (databases).
 
-- Stages of Web Development:
+- What are the stages of web development?
   - Agile vs. Waterfall
-  - Waterfall is a sequential design process. goes through each of the eight stages, conception, initiation, analysis, design, construction, testing, implementation, and maintenance. Once completed, the developers move on to the next step.
+  - Waterfall is a sequential design process. goes through each of the eight stages, conception, initiation, analysis, design, construction, testing, implementation, and maintenance.
   - Agile is development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. It does not deliver the product all at once near the end.
 
-- Stages of Web Development & Design:
+- What are the stages of the design?
   - User experience includes the practical, experiential, affective, meaningful and valuable aspects of human–computer interaction and product ownership. Additionally, it includes a person’s perceptions of system aspects such as utility, ease of use and efficiency.
-  - Infomation architecture includes reasearching the audience and the business, analyzing data, and developing site structures.
+  - Infomation architecture includes reasearching the audience and business, analyzing data, and developing site structures.
   - Visual design focuses on the aesthetics of a site and its related materials by strategically implementing images, colors, fonts, and other elements.
+
+- What is version control?
+  - Keeps trackof code and versions.
+  - Keeps track of contributions.
+  - Collaborate with others on.
+  - Open source, denoting software for which the original source code is made freely available and may be redistributed and modified.
 
 ## Website Preparation (10min)
 In order to build and deploy a website or web application, you will need certain requirements. Today, we will be using Google Chrome as our browser and Sublime Text as our editor. If you are unable to install Sublime Text due to having a work computer or anything else, let us know! You may need to use the default text editor.
