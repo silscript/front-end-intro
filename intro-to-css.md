@@ -206,8 +206,6 @@ h1 {
 ```
 
 - The percent unit is much like the “em” unit, save for a few fundamental differences.
-- The current font-size is equal to 100% (i.e. 12pt = 100%).
-- While using the percent unit, your text remains fully scalable for mobile devices and for accessibility.
 
 ```css
 h1 {
@@ -216,9 +214,6 @@ h1 {
 ```
 
 Use ems! Please!
-
-###### :
-- If a font name contains white-space, it must be quoted.
 
 ## That's All! (4:10pm)
 ![Mind Blown!](https://raw.githubusercontent.com/silscript/front-end-intro/master/assets/pug_amazed.gif)
@@ -239,6 +234,7 @@ A list of CSS resources that I frequently use:
 - Font Awesome Icons: https://fortawesome.github.io/Font-Awesome/icons/
 - Google Fonts: https://www.google.com/fonts
 - Mozilla Docs: https://developer.mozilla.org/en-US/
+- Pixel to Em: http://pxtoem.com/
 - Stack Overflow: http://stackoverflow.com/
 
 ## Contact Information
