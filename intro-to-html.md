@@ -209,6 +209,7 @@ A list of HTML resources that I frequently use:
 - CodePen: http://codepen.io/
 - GitHub: https://github.com/
 - HTML5 Doctor: http://html5doctor.com/
+- Jekyll: https://jekyllrb.com/
 - Mozilla Docs: https://developer.mozilla.org/en-US/
 - Stack Overflow: http://stackoverflow.com/
 
@@ -218,3 +219,4 @@ If you have any questions, don't hesitate to contact me! :)
 - Dribbble: https://dribbble.com/silscript
 - GitHub: https://github.com/silscript
 - Twitter: http://twitter.com/silscript
+- Website: http://silviabrown.co/

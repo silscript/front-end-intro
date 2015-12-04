@@ -79,7 +79,7 @@ In order to build and deploy a website or web application, you will need certain
 - We will be using [BitBalloon](https://www.bitballoon.com/)! It's free!
 
 ## Deploy Your Website!
-In order to your website, please use this site.
+In order to deploy your website, please use this site.
 - https://bitballoon.com/
 - Sign up for a free account.
 - Drag and drop your folder and your site is hosted!
@@ -91,3 +91,4 @@ If you have any questions, don't hesitate to contact me! :)
 - Dribbble: https://dribbble.com/silscript
 - GitHub: https://github.com/silscript
 - Twitter: http://twitter.com/silscript
+- Website: http://silviabrown.co/

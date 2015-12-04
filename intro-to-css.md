@@ -229,6 +229,7 @@ Use ems! Please!
 
 ## Resources
 A list of CSS resources that I frequently use:
+- Box-Sizing: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
 - Can I Use: http://caniuse.com/
 - CodePen: http://codepen.io/
 - CSS-Tricks: https://css-tricks.com/
@@ -246,3 +247,4 @@ If you have any questions, don't hesitate to contact me! :)
 - Dribbble: https://dribbble.com/silscript
 - GitHub: https://github.com/silscript
 - Twitter: http://twitter.com/silscript
+- Website: http://silviabrown.co/
